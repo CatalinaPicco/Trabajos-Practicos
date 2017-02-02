@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mi primera página web</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<img src="http://placehold.it/150x50">
+			<ul>
+				<li><a href="info.html">Info</a></li>
+				<li><a href="trabajos.html">Trabajos</a></li>
+				<li><a href="conacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<div>
+			<img src="http://placehold.it/350x500">
+			<article>
+				<h1>Futura programadora en desarrollo</h1>
+				<h2>Catalina Picco</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</article>
+		</div>
+	</header>		
+	<section>
+		<article>
+			<table>
+				<tr>
+					<td>Web</td>
+					<td>Corporativo</td>
+					<td>Educacion</td>
+				</tr>
+				<tr>
+					<td>Creación de sitios</td>
+					<td>Marcas</td>
+					<td>Diseño Editorial</td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<img src="http://placehold.it/200x400">
+		</article>
+		<article></article>
+		<article></article>
+	</section>
+	<section>
+		<article>
+			<h3>Galeria de Imágenes</h3>
+			<img src="http://placehold.it/600x480">
+			<video width="600" controls>
+  				<source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  				<source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+  				Tu navegador no soporta videos.
+			</video>
+		</article>
+	</section>
+	<footer>
+		<h3>Consultas</h3>
+		<form method="POST" action="enviar.php" enctype="multipart/form-data">
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" placeholder="Nombre" id="nombre" required>
+
+			<label for="apellido">Apellido:</label>
+			<input type="text" name="nombre" placeholder="Apellido" id="apellido" required>
+
+			<label>Email:</label>
+			<input type="email" name="email" placeholder="mail@mail.com" id="mail" required>
+
+			<label>Teléfono:</label>
+			<input type="email" name="email" placeholder="mail@mail.com" id="mail" required>
+
+			<p>Mensaje</p>
+			<label for="Comentario"></label>
+			<textarea id="comentario" cols"20" rows="10"></textarea>
+
+			<label for="conocimiento">¿Cómo nos conociste?</label>
+			<select id="medios" name="medios">
+			<option value="" selected>- selecciona -</option>
+			<option value="recomendacion">Recomendación</option>
+			<option value="google">Busqueda en Google</option>
+			<option value="emailmkt">Email Marketing</option>
+			<option value="otros">Otros</option>
+			</select>
+
+			<label>Entrega</label>
+			<input type="checkbox" name="emailing" value="emailing" checked="checked" />Deseo recibir más información
+
+			<label>Adjuntar archivo</label>
+			<input type="file" name="adjunto"/>
+
+			<input type="submit" id="submit" name="submit" value="Ingresar">
+		</form>
+		<nav>
+			<ul>
+				<li>Facebook</li>
+				<li>LinkedIn</li>
+				<li>Twitter</li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

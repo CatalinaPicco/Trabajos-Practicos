@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mi primera página web</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="css/estilos.css" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="ionicons-2.0.1/css/ionicons.css">
+</head>
+<body>
+	<header id="principal">
+		<nav class="menuprincipal">
+			<img class="logo" src="http://placehold.it/150x50">
+			<ul>
+				<li class="menu"><a href="info.html">Info</a></li>
+				<li class="menu"><a href="trabajos.html">Trabajos</a></li>
+				<li class="menu"><a href="conacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<div class="contenido">
+			<img class="imagen-principal" src="http://placehold.it/350x500">
+			<article class="texto-apertura">
+				<h1>Futura programadora en desarrollo</h1>
+				<h2>Catalina Picco</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</article>
+		</div>
+	</header>		
+	<section id="servicios">
+		<h3 class="servicios-h3">Servicios</h3>
+		<article class="art-2">
+			<img class="imagen-art" src="http://placehold.it/200x300">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in.</p>
+		</article>
+		<article class="art-2">
+			<img class="imagen-art" src="http://placehold.it/200x300">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in.</p>
+		</article>
+		<article class="art-2">
+			<img class="imagen-art" src="http://placehold.it/200x300">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in.</p>
+		</article>
+		<article class="art-2">
+			<img class="imagen-art" src="http://placehold.it/200x300">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in.</p>
+		</article>		
+	</section>
+	<section id="galeria">
+		<article>
+			<h3>Galeria de Imágenes</h3>
+			<img class="galeria-img" src="http://placehold.it/600x480">
+		</article>
+	</section>
+	<footer id="consultas">
+		<h3>Consultas</h3>
+		<form method="POST" action="enviar.php" enctype="multipart/form-data" class="formulario">
+			<label for="nombre" class="nombre">Nombre:</label>
+			<input type="text" name="nombre" placeholder="Nombre" id="nombre" class="nombre" required>
+
+			<label for="apellido" class="nombre">Apellido:</label>
+			<input type="text" name="nombre" placeholder="Apellido" id="apellido" class="nombre" required>
+
+			<label for="email" class="nombre">Email:</label>
+			<input type="email" name="email" placeholder="mail@mail.com" id="mail" class="nombre" required>
+
+			<label>Teléfono:</label>
+			<input type="telephone" name="telefono" placeholder="(011) 5555-5555" id="phone" class="nombre" required>
+
+			<p>Mensaje</p>
+			<label for="Comentario"></label>
+			<textarea id="comentario" cols"20" rows="10" class="comentario"></textarea>
+
+			<label for="conocimiento" class="novedades">¿Cómo nos conociste?</label>
+			<select id="medios" name="medios" class="novedades">
+			<option value="" selected>- selecciona -</option>
+			<option value="recomendacion">Recomendación</option>
+			<option value="google">Busqueda en Google</option>
+			<option value="emailmkt">Email Marketing</option>
+			<option value="otros">Otros</option>
+			</select>
+
+			<p>Novedades</p>
+			<label for="checkbox" class="novedades">Deseo recibir novedades</label>
+			<input class="check" type="checkbox" name="emailing" value="emailing" checked="checked">
+
+			<label class="novedades"><p>Adjuntar archivo</p></label>
+			<input type="file" name="adjunto" class="novedades">
+
+			<input type="submit" id="submit" name="submit" value="Ingresar" class="nombre">
+		</form>
+		<nav class="menuprincipal">
+			<ul>
+				<li class="menu"><a><p class="ion-social-facebook">Facebook</p></a></li>
+				<li class="menu"><a><p class="ion-social-linkedin">LinkedIn</p></a></li>
+				<li class="menu"><a><p class="ion-social-twitter">Twitter</p></a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

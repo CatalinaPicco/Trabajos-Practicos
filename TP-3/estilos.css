@@ -1,0 +1,165 @@
+body {
+margin: 0px;
+padding: 0px;
+border: 0;
+background-color: #000;
+}
+
+p {
+font-family: 'Lato', sans-serif;
+font-size: 1em;
+font-variant: normal;
+}
+
+#principal { 
+background-color:#58FAD0; 
+width: 100%; 
+height: 700px;
+margin: 0px;
+
+} 
+
+.menuprincipal { 
+background-color: #333; 
+width: 100%; 
+height: 80px;
+margin-top: 0px;
+
+}
+
+.logo { 
+
+float: left;
+margin-left: 1em;
+margin-top: 1em;
+
+}
+
+.menu, a { 
+
+font-family: 'Lato', sans-serif;
+color: #FFF; 
+font-size: 1em;
+list-style: none; 
+display: inline; float: right; 
+text-decoration: none; 
+margin-left: 2em; 
+margin-right: 2em;
+margin-top: 1em;
+
+}
+
+.contenido {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.imagen-principal {
+float: left;
+width: 30%;
+padding: 1em;
+}
+
+.texto-apertura {
+float: left;
+width: 50%;
+margin: 1em;
+}
+
+.texto-apertura h1 {
+font-size: 3.5em;
+font-family: sans-serif;
+}
+
+.texto-apertura h2 {
+font-size: 2em;
+font-family: sans-serif;
+}
+
+.texto-apertura p {
+font-size: 1em;
+font-family: sans-serif;
+}
+
+.art-2 {
+width: 20%;
+height: 400px;
+float: left;
+padding: 1em;
+}
+
+.art-2 p {
+padding: 1em;
+}
+
+.imagen-art {
+padding: 0em 1em;
+}
+
+#servicios {
+margin: 0;
+font-family: 'Lato', sans-serif;
+color: #000; 
+font-size: 1em;
+background-color: #F5DA81;
+height: 700px;
+width: 100%;
+}
+
+h3 {
+font-family: 'Lato', sans-serif;
+font-size: 2em;
+padding-left: 1em;
+padding-top: 1em;
+color: #333;
+}
+
+#galeria {
+background-color: #FA5882;
+height: 700px;
+width: 100%;
+}
+
+.galeria-img {
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+text-align: center;
+}
+
+#consultas {
+background-color: #333;
+font-family: 'Lato', sans-serif;
+color: #FFF;
+height: 700px;
+width: 100%;
+}
+
+#consultas h3 {
+color: #FFF;
+}
+
+.formulario {
+margin-left: auto;
+margin-right: auto;
+width: 55%;
+}
+
+.nombre {
+width: 300px;
+height: 2em;
+line-height: 2.5em;
+}
+
+.comentario {
+width: 100%;
+height: 5em;
+}
+
+.novedades {
+width: 100%;
+clear: both;
+line-height: 3em;
+}
+
